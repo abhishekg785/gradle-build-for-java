@@ -11,7 +11,7 @@ Clone the repo first into my local machine using git clone.
 
 Install Gradle, but this is not required as i am using the gradle wrapper that gives us a gradlew to use for the same purpose and thus no requirement of gradle.
 
-Magic happens in the build.gradle file :) <br/>
+######Magic happens in the build.gradle file :) <br/>
 It consists the data such as : <br/>
 Dependencies and repos of the the third party libs being used in the project.  <br/>
 The name of the main class to build. <br/>
@@ -23,9 +23,10 @@ Run the command
     ./gradlew build
 
 or 
+
     gradle build 
     
-( need installed gradle)
+( need  gradle installed)
     
 will build the project for you creating a build dir containing all the compiled java classes inside it and some other stuff.
 
@@ -34,13 +35,14 @@ Run the command
     ./gradlew run
     
 or 
+
     gradle run
      
-( need installed gradle)
+( need  gradle installed)
    
 This will run the main java file of the project.
 
 Gradle is awesome when it comes to automate the stuff. <br/>
 It might not seem very useful here , but for big projects having a lot of dependencies and libs , it makes a lot easier to build and run things :)
 
-Gradle is cool :)
+######Gradle is awesome :)
