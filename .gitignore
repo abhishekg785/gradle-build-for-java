@@ -1,0 +1,7 @@
+# Ignore Intellij .idea file
+.idea/
+
+# Ignore gradle files such as
+build/
+/gradle.properties
+/override.cfg
