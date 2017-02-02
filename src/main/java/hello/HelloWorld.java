@@ -14,6 +14,6 @@ public class HelloWorld {
         LocalTime currentTime = new LocalTime();
         System.out.println("The current time is :" + currentTime);
         Greeter greeter = new Greeter();
-        greeter.sayHello();
+        System.out.println(greeter.sayHello());
     }
 }
